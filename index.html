@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeXxyxpT-XsowHlhCLzJM4KM14BM89t2nquyGzc0l3jBdc5Qg/formResponse"
+    method="POST"
+    target="hidden_iframe"
+    onsubmit="submitted()">
+
+        <label>LAST NAME</label>
+        <input type="text" name="entry.366340186" required>
+
+        <label>FIRST NAME</label>
+        <input type="text" name="entry.1990686547" required>
+
+        <label>MIDDLE NAME</label>
+        <input type="text" name="entry.995653723" required>
+
+        <label>ADDRESS</label>
+        <input type="text" name="entry.1160762041" required>
+
+        <label>CONTACT NUMBER</label>
+        <input type="text" name="entry.191188392" required>
+
+        <label>LAST SCHOOL ATTENDED</label>
+        <input type="text" name="entry.91690631" required>
+
+        <label>ADDRESS OF SCHOOL</label>
+        <input type="text" name="entry.2145556729" required>
+
+        <label>DATE</label>
+        <input type="date" name="entry.964270169" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+    <p id="msg" style="display:none;color:green;">
+    ✅ Response Submitted!
+    </p>
+
+<script>
+function submitted(){
+ document.getElementById("msg").style.display="block";
+}
+
+
+</script>
+</body>
+</html>
+
