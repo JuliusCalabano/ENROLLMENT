@@ -5,38 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSTC-SIT2026-2027</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="image/png" href="CSTC.png">
+    <link rel="icon" type="image/png" href="./CSTC.png">
 </head>
 <body>
     
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeXxyxpT-XsowHlhCLzJM4KM14BM89t2nquyGzc0l3jBdc5Qg/formResponse"
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfDgcr02YQVGDt1Ijc1l2CH48wjlS-dU6XPuQgwOGkoDSXo7Q/formResponse"
     method="POST"
     target="hidden_iframe"
     onsubmit="submitted()">
 
         <label>LAST NAME</label>
-        <input type="text" name="entry.366340186" required>
+        <input type="text" name="entry.366340186" placeholder="Enter your Last Name" required>
 
         <label>FIRST NAME</label>
-        <input type="text" name="entry.1990686547" required>
+        <input type="text" name="entry.1324551615" placeholder="Enter your First Name" required>
 
         <label>MIDDLE NAME</label>
-        <input type="text" name="entry.995653723" required>
+        <input type="text" name="entry.556462934" placeholder="Enter Your Middle Name" required>
 
-        <label>ADDRESS</label>
-        <input type="text" name="entry.1160762041" required>
+        <label>DATE OF BIRTH</label>
+        <input type="date" name="entry.2008991245" placeholder="Enter your Birthday" required>
+
+        <label>DATE ENROLLED</label>
+        <input type="date" name="entry.1053682047" placeholder="Enter date of Enrollment" required>
 
         <label>CONTACT NUMBER</label>
-        <input type="text" name="entry.191188392" required>
+        <input type="text" name="entry.481470127" placeholder="Enter your Contact Number" required>
+
+        <label>FACEBOOK ACCOUNT</label>
+        <input type="text" name="entry.755160444" placeholder="Enter your Facebook Account" required>
 
         <label>LAST SCHOOL ATTENDED</label>
-        <input type="text" name="entry.91690631" required>
+        <input type="text" name="entry.1787299153" placeholder="Enter last school attended." required>
 
-        <label>ADDRESS OF SCHOOL</label>
-        <input type="text" name="entry.2145556729" required>
-
-        <label>DATE</label>
-        <input type="date" name="entry.964270169" required>
+        <label>REMARKS</label>
+            <select name="entry.377283712" required>
+                <option value="" disabled selected>Select remarks</option>
+                <option value="Return">Return</option>
+                <option value="Enrolled">Enrolled</option>
+                <option value="Transferee">Transferee</option>
+                <option value="Drop">Drop</option>
+            </select>
 
         <button type="submit">Submit</button>
 

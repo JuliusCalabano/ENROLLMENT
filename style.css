@@ -5,7 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background: url(cac1a00d-e1d5-43c1-abd8-f3b432a2384e.png) no-repeat center center/cover;
     margin:50px;
-    height:100vh;
+    height:150vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -44,6 +44,14 @@ label{
 
 /* ===== INPUT ===== */
 input{
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:15px;
+    transition:0.3s;
+}
+
+select{
     padding:10px;
     border-radius:6px;
     border:1px solid #ccc;
